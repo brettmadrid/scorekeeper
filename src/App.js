@@ -1,5 +1,4 @@
 import Scorekeeper from './Scorekeeper';
-import './App.css';
 
 function App() {
   return (
