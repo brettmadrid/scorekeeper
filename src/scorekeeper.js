@@ -1,6 +1,6 @@
 import React from 'react';
 
-class scorekeeper extends Component {
+class Scorekeeper extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,4 +17,4 @@ class scorekeeper extends Component {
   }
 }
 
-export default scorekeeper;
+export default Scorekeeper;
