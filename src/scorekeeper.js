@@ -8,6 +8,10 @@ class Scorekeeper extends React.Component {
     };
   }
 
+  incrementScore = prevState => {
+    return { score: prevState.score + 1 };
+  };
+
   singleKill = () => {
     // when using state itself in the calculation of new state
     // use this callback form to ensure state updates properly
@@ -15,7 +19,9 @@ class Scorekeeper extends React.Component {
   };
 
   tripleKill = () => {
-    this.setState(curState => ({ score: curState.score + 3 }));
+    this.setState(this.incrementScore);
+    this.setState(this.incrementScore);
+    this.setState(this.incrementScore);
   };
 
   render() {
