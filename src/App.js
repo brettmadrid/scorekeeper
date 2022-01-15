@@ -1,11 +1,11 @@
-import IconList from './IconList';
-// import Scorekeeper from './Scorekeeper';
+import Ball from './Ball';
 
 function App() {
   return (
     <div className='App'>
       {/* <Scorekeeper /> */}
-      <IconList />
+      {/* <IconList /> */}
+      <Ball num={17} />
     </div>
   );
 }
