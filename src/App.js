@@ -1,11 +1,12 @@
-import Ball from './Ball';
+import Lottery from './Lottery';
 
 function App() {
   return (
     <div className='App'>
       {/* <Scorekeeper /> */}
       {/* <IconList /> */}
-      <Ball num={17} />
+      <Lottery />
+      <Lottery title='Mini Daily' maxBalls={4} maxNum={10} />
     </div>
   );
 }
