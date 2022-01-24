@@ -1,4 +1,4 @@
-import CoinContainer from './CoinContainer';
+import BoxContainer from './BoxContainer';
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       {/* <IconList /> */}
       {/* <Lottery />
       <Lottery title='Mini Daily' maxBalls={4} maxNum={10} /> */}
-      <CoinContainer />
+      {/* <CoinContainer /> */}
+      <BoxContainer />
     </div>
   );
 }
